@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 logging.basicConfig(filename='discord_log_file.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 DISCORD_AUTH_TOKEN=os.getenv("DISCORD_AUTH_TOKEN")
 DISCORD_CHANNEL_ID_LIST=[1281499626742222870,1281499568630136842]
 MESSAGE_SCANNING_INTERVAL=2
